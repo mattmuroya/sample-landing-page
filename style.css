@@ -177,10 +177,15 @@ ul.nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .call-heading {
-    margin: 0 0 8px;
+    margin: 16px 0;
+}
+
+.call-sub {
+    margin: 16px 0;
 }
 
 .call-button {
