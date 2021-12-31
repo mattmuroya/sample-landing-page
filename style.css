@@ -15,8 +15,14 @@ header {
     align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+    header {
+        padding-top: 8px;
+    }
+}
+
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
 }
 
